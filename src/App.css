@@ -1,0 +1,284 @@
+/* job card css  */
+
+body {
+  background-color: rgb(205, 231, 233);
+}
+
+.job-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 10px;
+}
+/* card 1 */
+.job-header {
+  text-align: center; 
+  margin-top: 50px; 
+  padding: 20px; 
+  color: #333; 
+}
+
+.job-header h1 {
+  font-size: 36px; 
+  font-weight: bold;
+  color: #0073e6; 
+  margin-bottom: 10px; 
+}
+
+.job-header p {
+  font-size: 18px; 
+  color: #666; 
+  margin-bottom: 20px;
+}
+
+.job-header h1, .job-header p {
+  line-height: 1.5;
+}
+ 
+
+.card {
+  background-color: #fff;
+  border: 1px solid white;
+  padding: 20px;
+  width: 100%; 
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+
+}
+.card .text-field-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card .MuiTextField-root {
+  flex: 1; 
+  max-width: 400px; 
+}
+
+.card .MuiOutlinedInput-root {
+  height: 50px; 
+  width: 300px;
+}
+
+.card .MuiOutlinedInput-input {
+  padding: 12px; 
+}
+
+.card .MuiOutlinedInput-root fieldset {
+  border: none; 
+}
+
+
+.card .MuiButton-root {
+  background-color: #007bff;
+  color: black;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 20%;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.card .MuiButton-root:hover {
+  background-color: #0056b3;
+}
+.chng-btn{
+  background-color: white;
+  border: none;
+}
+
+
+/* card2 css */
+.job-show-container {
+  /* border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  gap: 20px; 
+  justify-items: center; 
+  padding: 20px;
+  margin-top: 70px;
+  width: 100%; 
+  max-width: 1200px; 
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.job-show {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  height: 350px;
+  text-align: center;
+  transition: transform 0.2s, background-color 0.3s;
+  display: grid;
+}
+
+.job-show:hover {
+  transform: translateY(-10px);
+  background-color: #f7f7f7;
+}
+
+.job-show h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.job-show h5 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.job-show p {
+  font-size: 16px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.job-show h4 {
+  font-size: 16px;
+  color: #777;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.skill-box {
+  background-color: #f0f0f0;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.skill-box:hover {
+  background-color: #e0e0e0;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* Form css  */
+
+
+.job-application-form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+
+.job-application-form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+}
+
+.form-group input[type="file"] {
+  padding: 5px;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+.submitted-data {
+  margin-top: 30px;
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.submitted-data h3 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.submitted-data p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.submitted-data strong {
+  color: #2c3e50;
+}

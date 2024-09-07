@@ -1,0 +1,147 @@
+export default [
+    {
+      id: 1,
+      postedOn: "2024-07-06",
+      title: "Frontend Developer",
+      company: "Wipro",
+      type: "Full Time",
+      experience: "2 years",
+      location: "Indore",
+      mode: "Remote",
+      Description: "Looking for a frontend developer to join our growing team.",
+      skills: ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      id: 2,
+      postedOn: "2024-07-08",
+      title: "Backend Developer",
+      company: "TCS",
+      type: "Part Time",
+      experience: "3 years",
+      location: "Mumbai",
+      mode: "On-site",
+      Description: "Backend developer needed for API development and database management.",
+      skills: ["Node.js", "Express", "MongoDB"]
+    },
+    {
+      id: 3,
+      postedOn: "2024-07-10",
+      title: "Full Stack Developer",
+      company: "Infosys",
+      type: "Full Time",
+      experience: "4 years",
+      location: "Pune",
+      mode: "Hybrid",
+      Description: "We are looking for a Full Stack Developer with experience in React and Node.js.",
+      skills: ["React", "Node.js", "MySQL"]
+    },
+    {
+      id: 4,
+      postedOn: "2024-07-12",
+      title: "DevOps Engineer",
+      company: "HCL",
+      type: "Full Time",
+      experience: "5 years",
+      location: "Chennai",
+      mode: "On-site",
+      Description: "DevOps Engineer required for cloud infrastructure management.",
+      skills: ["AWS", "Docker", "Kubernetes"]
+    },
+    {
+      id: 5,
+      postedOn: "2024-07-15",
+      title: "UI/UX Designer",
+      company: "Cognizant",
+      type: "Contract",
+      experience: "2 years",
+      location: "Delhi",
+      mode: "Remote",
+      Description: "Creative UI/UX Designer needed to enhance user interfaces and experiences.",
+      skills: ["Figma", "Sketch", "Adobe XD"]
+    },
+    {
+      id: 6,
+      postedOn: "2024-07-18",
+      title: "Data Scientist",
+      company: "Google",
+      type: "Full Time",
+      experience: "6 years",
+      location: "Bangalore",
+      mode: "Hybrid",
+      Description: "Join Google as a Data Scientist to work on exciting data challenges.",
+      skills: ["Python", "TensorFlow", "Machine Learning"]
+    },
+    {
+      id: 7,
+      postedOn: "2024-07-20",
+      title: "Mobile App Developer",
+      company: "Microsoft",
+      type: "Full Time",
+      experience: "3 years",
+      location: "Hyderabad",
+      mode: "On-site",
+      Description: "Mobile App Developer with experience in both iOS and Android platforms.",
+      skills: ["React Native", "Swift", "Kotlin"]
+    },
+    {
+      id: 8,
+      postedOn: "2024-07-22",
+      title: "Cloud Engineer",
+      company: "Amazon",
+      type: "Full Time",
+      experience: "5 years",
+      location: "Noida",
+      mode: "Remote",
+      Description: "Cloud Engineer for managing AWS services and scaling applications.",
+      skills: ["AWS", "Terraform", "CI/CD"]
+    },
+    {
+      id: 9,
+      postedOn: "2024-07-24",
+      title: "Cybersecurity Analyst",
+      company: "IBM",
+      type: "Full Time",
+      experience: "4 years",
+      location: "Kolkata",
+      mode: "On-site",
+      Description: "Protect and secure networks from cyber threats as a cybersecurity analyst.",
+      skills: ["Cybersecurity", "Penetration Testing", "Firewall Management"]
+    },
+    {
+      id: 10,
+      postedOn: "2024-07-26",
+      title: "AI Engineer",
+      company: "Tesla",
+      type: "Full Time",
+      experience: "7 years",
+      location: "Bangalore",
+      mode: "On-site",
+      Description: "AI Engineer to work on cutting-edge AI technologies for autonomous vehicles.",
+      skills: ["Python", "Neural Networks", "Deep Learning"]
+    },
+    {
+      id: 11,
+      postedOn: "2024-07-28",
+      title: "Product Manager",
+      company: "Adobe",
+      type: "Full Time",
+      experience: "5 years",
+      location: "Pune",
+      mode: "Hybrid",
+      Description: "Product Manager to oversee software development and client solutions.",
+      skills: ["Product Management", "Agile", "Scrum"]
+    },
+    {
+      id: 12,
+      postedOn: "2024-07-30",
+      title: "Blockchain Developer",
+      company: "Facebook",
+      type: "Full Time",
+      experience: "3 years",
+      location: "Gurgaon",
+      mode: "Remote",
+      Description: "Blockchain Developer to build decentralized applications on Ethereum.",
+      skills: ["Solidity", "Ethereum", "Smart Contracts"]
+    }
+  ];
+  
